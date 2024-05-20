@@ -23,6 +23,7 @@ return {
 
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.svelte" },
+  { import = "astrocommunity.pack.tailwindcss" },
 
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
