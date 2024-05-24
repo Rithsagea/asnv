@@ -1,5 +1,3 @@
-if true then return {} end -- WARN: REMOVE THIS LINE TO ACTIVATE THIS FILE
-
 -- AstroCore provides a central place to modify mappings, vim options, autocommands, and more!
 -- Configuration documentation can be found with `:h astrocore`
 -- NOTE: We highly recommend setting up the Lua Language Server (`:LspInstall lua_ls`)
@@ -32,6 +30,8 @@ return {
         spell = false, -- sets vim.opt.spell
         signcolumn = "auto", -- sets vim.opt.signcolumn to auto
         wrap = false, -- sets vim.opt.wrap
+        shiftwidth = 4,
+        tabstop = 4,
       },
       g = { -- vim.g.<key>
         -- configure global vim variables (vim.g)
@@ -61,7 +61,7 @@ return {
         },
         -- tables with just a `desc` key will be registered with which-key if it's installed
         -- this is useful for naming menus
-        ["<Leader>b"] = { desc = "Buffers" },
+        -- ["<Leader>b"] = { desc = "Buffers" },
         -- quick save
         -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
       },
