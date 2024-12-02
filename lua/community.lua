@@ -18,10 +18,14 @@ return {
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.cpp" },
 
+  { import = "astrocommunity.pack.cs" },
+  { import = "astrocommunity.pack.ocaml" },
+  { import = "astrocommunity.editing-support.conform-nvim" },
+
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.python-ruff" },
 
-  { import = "astrocommunity.pack.typescript" },
+  { import = "astrocommunity.pack.typescript-all-in-one" },
   { import = "astrocommunity.pack.svelte" },
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.markdown" },
