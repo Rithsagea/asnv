@@ -15,6 +15,7 @@ return {
   },
 
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.yaml" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.cpp" },
 
