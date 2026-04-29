@@ -10,10 +10,10 @@ return {
     require("neo-tree").setup(opts)
 
     vim.api.nvim_create_autocmd("FileType", {
-      pattern="neo-tree",
+      pattern = "neo-tree",
       callback = function()
         vim.api.nvim_set_hl(0, "NeoTreeTabSeparatorInactive", { bg = "none", fg = "none", blend = 100 })
-      end
+      end,
     })
   end,
 }

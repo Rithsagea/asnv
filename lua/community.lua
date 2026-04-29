@@ -5,6 +5,14 @@
 ---@type LazySpec
 return {
   "AstroNvim/astrocommunity",
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  {
+    "catppuccin/nvim",
+    opts = {
+      flavour = "latte",
+      transparent_background = true,
+    },
+  },
 
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.yaml" },
@@ -13,6 +21,7 @@ return {
 
   { import = "astrocommunity.pack.java" },
   { import = "astrocommunity.pack.python.base" },
+  { import = "astrocommunity.pack.python.basedpyright" },
   { import = "astrocommunity.pack.python.ruff" },
 
   { import = "astrocommunity.pack.typescript-all-in-one" },
