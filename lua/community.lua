@@ -15,7 +15,9 @@ return {
   },
 
   { import = "astrocommunity.pack.lua" },
+  { import = "astrocommunity.pack.lean" },
   { import = "astrocommunity.pack.yaml" },
+
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.cpp" },
 
@@ -29,6 +31,7 @@ return {
   { import = "astrocommunity.pack.tailwindcss" },
   { import = "astrocommunity.pack.markdown" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  { import = "astrocommunity.markdown-and-latex.vimtex" },
 
   { import = "astrocommunity.pack.docker" },
 }
