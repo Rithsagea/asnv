@@ -43,6 +43,7 @@ return {
     -- client specific configuration can also go in `lsp/` in your configuration root (see `:h lsp-config`)
     config = {
       clangd = { capabilities = { offsetEncoding = "utf-8" } },
+      texlab = {},
       -- ["*"] = { capabilities = {} }, -- modify default LSP client settings such as capabilities
     },
     -- customize how language servers are attached
