@@ -18,6 +18,7 @@ return {
   { import = "astrocommunity.pack.lean" },
   { import = "astrocommunity.pack.yaml" },
 
+  { import = "astrocommunity.pack.ocaml" },
   { import = "astrocommunity.pack.rust" },
   { import = "astrocommunity.pack.cpp" },
 
